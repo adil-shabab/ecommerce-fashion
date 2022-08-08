@@ -55,6 +55,7 @@
 }
 body{
     position: relative;
+    overflow-x: hidden;
 }
 
 
@@ -142,6 +143,23 @@ body{
     font-weight: bold;
     margin-bottom: 15px;
 }
+
+
+
+
+
+/* counter css */
+.counter-wrapper{
+    margin-top: 50px;
+}
+.counter{
+    padding: 15px 25px;
+    margin-right: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+    
+}
+
 
 /* swiper css  */
 .swiper {
