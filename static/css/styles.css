@@ -65,6 +65,21 @@ body{
     font-family: 'Finlandica', sans-serif;
     font-family: 'Oleo Script Swash Caps', cursive;
   }
+hr{
+    width: 50%;
+    margin: auto;
+    height: 5px;
+    box-shadow: 0px 3px 4px rgb(255, 127, 80);
+    border: none;
+    background: none;
+    margin-bottom: 15px;
+}
+.mr-3{
+    margin-right: 105px;
+}
+.m-auto{
+    margin: auto;
+}
 
 
 
@@ -215,7 +230,22 @@ body{
 
 /* filter section starts **********************************  */
 .filter{
-    margin-top: 140px;
-    width: 86%;
+    margin-top: 150px;
+    width: 100%;
 }
+.para{
+    margin-left: 65px;
+    font-weight: bold;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    color: rgb(74, 50, 41);
+}
+.heading{
+    font-size: 33px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 20px;
+    color: coral;
+}
+
 /* filter section end **************************************  */
