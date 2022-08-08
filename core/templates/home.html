@@ -1,46 +1,56 @@
-{% extends "base.html" %} {% load static %} {% block content %}
+{% extends "base.html" %} 
+{% load static %} 
+{% block content %}
 <div class="d-flex-full home">
   <div class="left-section">
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <lottie-player class="lottie" src="https://assets1.lottiefiles.com/packages/lf20_5ngs2ksb.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                <lottie-player class="lottie" src="https://assets1.lottiefiles.com/packages/lf20_5ngs2ksb.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
+                </div>
+                <div class="swiper-slide">
+                <lottie-player class="lottie" src="https://assets1.lottiefiles.com/packages/lf20_57TxAX.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
+                </div>
+                <div class="swiper-slide">
+                <lottie-player class="lottie" src="https://assets1.lottiefiles.com/private_files/lf30_9kdbftpx.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
+                </div>
+                <div class="swiper-slide">
+                <lottie-player class="lottie" src="https://assets1.lottiefiles.com/packages/lf20_vjrlq3tj.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
+                </div>
+                <div class="swiper-slide">
+                <lottie-player class="lottie" src="https://assets2.lottiefiles.com/packages/lf20_6wutsrox.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
+                </div>
+                <div class="swiper-slide">
+                <lottie-player class="lottie" src="https://assets3.lottiefiles.com/private_files/lf30_x2lzmtdl.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
+                </div>
+            </div>
         </div>
-        <div class="swiper-slide">
-          <lottie-player class="lottie" src="https://assets1.lottiefiles.com/packages/lf20_57TxAX.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
+        
+    </div>
+    <div class="right-section">
+        <h4 class="h4">Offer closes soon</h4>
+        <span class="span">Super Deal On All Products</span>
+        <p class="p">Check in our Shop</p>
+        <lottie-player class="lottie" src="https://assets5.lottiefiles.com/packages/lf20_bS9j3g.json" background="transparent" speed="1" style="width: 75px; height: 75px" loop autoplay ></lottie-player>
+        <div class="d-flex counter-wrapper">
+            <div class="counter">
+                <span class="stroke value" end="1550">0</span>
+                <span class="stroke">+</span>
+                <p>Happy Customers</p>
+            </div>
+            <div class="counter">
+                <span class="stroke value" end="1250">0</span>
+                <span class="stroke">+</span>
+                <p>Latest Products</p>
+            </div>
         </div>
-        <div class="swiper-slide">
-          <lottie-player class="lottie" src="https://assets1.lottiefiles.com/private_files/lf30_9kdbftpx.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
-        </div>
-        <div class="swiper-slide">
-          <lottie-player class="lottie" src="https://assets1.lottiefiles.com/packages/lf20_vjrlq3tj.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
-        </div>
-        <div class="swiper-slide">
-          <lottie-player class="lottie" src="https://assets2.lottiefiles.com/packages/lf20_6wutsrox.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
-        </div>
-        <div class="swiper-slide">
-          <lottie-player class="lottie" src="https://assets3.lottiefiles.com/private_files/lf30_x2lzmtdl.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
+        <div class="social-media">
+            <a href=""><lottie-player class="media-lottie" src="https://assets8.lottiefiles.com/packages/lf20_5mhyg2hz.json" background="transparent" speed="1" style="width: 75px; height: 75px" loop autoplay ></lottie-player></a>
+            <a href=""><lottie-player class="media-lottie" src="https://assets4.lottiefiles.com/packages/lf20_xwabp3dh.json" background="transparent" speed="1" style="width: 75px; height: 75px" loop autoplay ></lottie-player></a>
+            <a href=""><lottie-player class="media-lottie" src="https://assets8.lottiefiles.com/packages/lf20_86afyky0.json" background="transparent" speed="1" style="width: 75px; height: 75px" loop autoplay ></lottie-player></a>
         </div>
     </div>
 </div>
-</div>
-<div class="right-section">
-    <h4 class="h4">Offer closes soon</h4>
-    <span class="span">Super Deal On All Products</span>
-    <p class="p">Check in our Shop</p>
-    <lottie-player class="lottie" src="https://assets5.lottiefiles.com/packages/lf20_bS9j3g.json" background="transparent" speed="1" style="width: 75px; height: 75px" loop autoplay ></lottie-player>
-    <div class="d-flex counter-wrapper">
-        <div class="counter">
-            <span class="stroke value" end="1500">0</span>
-            <span class="stroke">+</span>
-            <p>Happy Customers</p>
-        </div>
-        <div class="counter">
-            <span class="stroke value" end="1500">0</span>
-            <span class="stroke">+</span>
-            <p>Latest Products</p>
-        </div>
-    </div>
-  </div>
-</div>
+
+<script src="{% static 'js/counter.js' %}"></script>
 {% endblock content %}

@@ -10,4 +10,11 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 
-  console.log('working')
+//   console.log('working')
+
+
+
+
+
+
+
