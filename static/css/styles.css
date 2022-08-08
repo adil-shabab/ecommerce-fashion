@@ -68,11 +68,23 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(23, 38, 110);
 }
 .navbar ul li{
     margin-right: 30px;
     list-style: none;
     font-size: 20px;
+}
+.navbar ul li .cart{
+    position: relative;
+}
+.navbar ul li .circle{
+    position: absolute;
+    background: red;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    right: 0px;
+    top: 0px;
 }
 /* navbar section end  */
