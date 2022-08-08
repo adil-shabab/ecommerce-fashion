@@ -1,0 +1,78 @@
+/* global css  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d-flex{
+    display: flex;
+}
+.d-flex-full{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.justify{
+    justify-content: center;
+}
+.align{
+    align-items: center;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.btn{
+    padding: 15px 25px;
+}
+.border-radius{
+    border-radius: 7px;
+}
+.list-style-none{
+    list-style: none;
+}
+.text-decoration-none{
+    text-decoration: none;
+}
+.text-white{
+    color: white;
+}
+.text-dark{
+    color: black;
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    padding: 50px 120px;
+    width: 100%;
+}
+.box-shadow{
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+/* navbar section starts  */
+.navbar{
+    justify-content: space-between;
+}
+.navbar{
+    padding: 25px 90px;
+}
+.navbar img{
+    width: 120px;
+    height: 50px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li{
+    margin-right: 30px;
+    list-style: none;
+    font-size: 20px;
+}
+/* navbar section end  */
