@@ -57,6 +57,13 @@ body{
     position: relative;
     overflow-x: hidden;
 }
+.stroke{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: coral;
+    font-size: 32px;
+    color: transparent;
+    font-family: 'Finlandica', sans-serif;
+  }
 
 
 
@@ -129,7 +136,7 @@ body{
     font-family: 'Caveat', cursive;
     font-weight: bold;
     font-size: 32px;
-    color: #ff7f50;
+    color: rgb(255, 127, 80);
     margin-bottom: 15px;
 }
 .home .right-section .span{
@@ -156,11 +163,16 @@ body{
     padding: 15px 25px;
     margin-right: 20px;
     border-radius: 15px;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
-    
+    box-shadow: 0px 4px 6px rgba(255, 127, 80, 0.5);
 }
-
-
+.counter .value{
+    margin-left: 10px;
+}
+.counter p{
+    margin-top: 8px;
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+}
 /* swiper css  */
 .swiper {
     width: 100%;
