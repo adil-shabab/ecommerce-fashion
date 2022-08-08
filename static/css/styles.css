@@ -1,5 +1,5 @@
 /* global css  */
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oleo+Script+Swash+Caps&family=Roboto+Slab:wght@100&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -63,6 +63,7 @@ body{
     font-size: 32px;
     color: transparent;
     font-family: 'Finlandica', sans-serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
   }
 
 
@@ -75,6 +76,7 @@ body{
 .navbar{
     position: fixed;
     z-index: 11;
+    background: white;
     width: 100%;
     justify-content: space-between;
 }
@@ -90,6 +92,7 @@ body{
 .navbar ul li a{
     text-decoration: none;
     color: rgb(23, 38, 110);
+    transition: 0.5s;
 }
 .navbar ul li{
     margin-right: 30px;
@@ -98,6 +101,9 @@ body{
 }
 .navbar ul li .cart{
     position: relative;
+}
+.navbar ul li a:hover{
+    color: coral;
 }
 .navbar ul li .circle{
     position: absolute;
@@ -197,3 +203,19 @@ body{
     margin-bottom: 80px;
   }
 /* home section end ---------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+/* filter section starts **********************************  */
+.filter{
+    margin-top: 140px;
+    width: 86%;
+}
+/* filter section end **************************************  */
