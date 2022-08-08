@@ -1,11 +1,29 @@
-{% extends "base.html" %}
-
-{% block content %}
-<div class="home swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
+{% extends "base.html" %} {% load static %} {% block content %}
+<div class="home">
+  <div class="left-section">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <lottie-player class="lottie" src="https://assets1.lottiefiles.com/packages/lf20_5ngs2ksb.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
+        </div>
+        <div class="swiper-slide">
+          <lottie-player class="lottie" src="https://assets1.lottiefiles.com/packages/lf20_57TxAX.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
+        </div>
+        <div class="swiper-slide">
+          <lottie-player class="lottie" src="https://assets1.lottiefiles.com/private_files/lf30_9kdbftpx.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
+        </div>
+        <div class="swiper-slide">
+          <lottie-player class="lottie" src="https://assets1.lottiefiles.com/packages/lf20_vjrlq3tj.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
+        </div>
+        <div class="swiper-slide">
+          <lottie-player class="lottie" src="https://assets2.lottiefiles.com/packages/lf20_6wutsrox.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
+        </div>
+        <div class="swiper-slide">
+          <lottie-player class="lottie" src="https://assets3.lottiefiles.com/private_files/lf30_x2lzmtdl.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop autoplay ></lottie-player>
+        </div>
+      </div>
     </div>
   </div>
+  <div class="right-section"></div>
+</div>
 {% endblock content %}
