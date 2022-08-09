@@ -86,6 +86,12 @@ hr{
 .mt-2{
     margin-top: 25px;
 }
+.mt-3{
+    margin-top: 40px;
+}
+.pt-2{
+    padding-top: 20px;
+}
 
 
 
@@ -131,7 +137,8 @@ hr{
     position: absolute;
     background: red;
     color: white;
-    padding: 1px 6px;
+    padding: 3px 6px;
+    font-size: 14px;
     border-radius: 50%;
     right: 0px;
     top: -3px;
