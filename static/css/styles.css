@@ -75,7 +75,7 @@ body{
 /* navbar section starts -------------------------------- */
 .navbar{
     position: fixed;
-    z-index: 11;
+    z-index: 1111;
     background: white;
     width: 100%;
     justify-content: space-between;
@@ -162,6 +162,11 @@ body{
     position: absolute;
     top: 50px;
     right: 30px;
+}
+.watsapp{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
 }
 
 
@@ -303,6 +308,7 @@ body{
 .about-section .right-section span{
     font-family: 'Caveat', cursive;
     font-size: 22px;
+    text-align: justify;
 }
 .about-section .right-section p{
     color: coral;
@@ -311,9 +317,5 @@ body{
     font-family: 'Oleo Script Swash Caps', cursive;
     margin-top: 50px;
 }
-.about-section .right-section .watsapp{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
+
 /* about section end ************************************************ */
