@@ -5,9 +5,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.d-flex{
-    display: flex;
-}
 .d-flex-full{
     display: flex;
     justify-content: center;
@@ -24,9 +21,6 @@
 }
 .w-100{
     width: 100%;
-}
-.btn{
-    padding: 15px 25px;
 }
 .border-radius{
     border-radius: 7px;
@@ -45,10 +39,6 @@
 }
 .text-center{
     text-align: center;
-}
-.container{
-    padding: 50px 120px;
-    width: 100%;
 }
 .box-shadow{
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
@@ -73,24 +63,6 @@ hr{
     border: none;
     background: none;
     margin-bottom: 25px;
-}
-.mr-3{
-    margin-right: 105px;
-}
-.m-auto{
-    margin: auto;
-}
-.h-100{
-    height: 100%;
-}
-.mt-2{
-    margin-top: 25px;
-}
-.mt-3{
-    margin-top: 40px;
-}
-.pt-2{
-    padding-top: 20px;
 }
 
 
@@ -206,8 +178,12 @@ hr{
     border-radius: 15px;
     box-shadow: 0px 4px 6px rgba(255, 127, 80, 0.5);
 }
-.counter .value{
+.counter .value,
+.plus{
     margin-left: 10px;
+    font-size: 32px;
+    color: coral;
+    font-family: 'Oleo Script Swash Caps', cursive;
 }
 .counter p{
     margin-top: 8px;
