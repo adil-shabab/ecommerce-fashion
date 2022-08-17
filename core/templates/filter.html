@@ -1,6 +1,88 @@
 {% extends "base.html" %}
 {% load static %}
 {% block content %}
+  <div class="filter container">
+    <h3 class="text-center heading">Choose Your Category</h3>
+    <div class="row">
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/food.jpg' %}" alt="">
+                <p class="para">Food</p>
+            </div>
+        </div>
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/gadgets.jpg' %}" alt="">
+                <p class="para">Electronics</p>
+            </div>
+        </div>
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/phone.jpg' %}" alt="">
+                <p class="para">Phone</p>
+            </div>
+        </div>
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/stationary.jpg' %}" alt="">
+                <p class="para">Stationary</p>
+            </div>
+        </div>
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/shoe.jpg' %}" alt="">
+                <p class="para">Shoe</p>
+            </div>
+        </div>
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/dress.jpg' %}" alt="">
+                <p class="para">Dress</p>
+            </div>
+        </div>
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/home tools.jpg' %}" alt="">
+                <p class="para">Home Appliences</p>
+            </div>
+        </div>
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/watch.jpg' %}" alt="">
+                <p class="para">Watch</p>
+            </div>
+        </div>
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/laptop.jpg' %}" alt="">
+                <p class="para">Laptop</p>
+            </div>
+        </div>
+        
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <script src="{% static 'js/filter.js' %}"></script>
+{% endblock content %}
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- <div class="filter overflow-hidden swiper mySwiper2">
     <h1 class="text-center heading">Choose Your Category</h1>
     <hr>
@@ -23,10 +105,9 @@
         </div>
     </div>
   </div> -->
-
+<!-- 
   <div class="w-100 filter">
     <h1 class="text-center heading">Choose Your Category</h1>
-    <hr>
     <div class="m-auto d-flex-full">
         <div class="mr-3">
         <a href=""><lottie-player src="https://assets7.lottiefiles.com/packages/lf20_wagcjbaa.json"  background="transparent"  speed="0.8"  style="width: 220px; height: 220px;"  loop autoplay></lottie-player></a>
@@ -66,13 +147,4 @@
             <p class="para">Sport Items</p>
         </div>
     </div>
-  </div>
-
-
-  
-
-
-
-
-  <script src="{% static 'js/filter.js' %}"></script>
-{% endblock content %}
+  </div> -->
