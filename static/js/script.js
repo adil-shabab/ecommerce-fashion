@@ -16,6 +16,7 @@ var mainImg = document.getElementById('main-img')
 var smallImg = document.getElementsByClassName('small-image')
 console.log(smallImg[1])
 
+mainImg.src = smallImg[0].src
 
 smallImg[0].onclick = function(){
     mainImg.src = smallImg[0].src

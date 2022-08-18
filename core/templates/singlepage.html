@@ -3,7 +3,7 @@
 {% load static %}
 <div class="container single-page">
     <div class="row">
-        <div class="col-xlg-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="left-section col-xlg-6 col-lg-6 col-md-6 col-sm-12 col-12">
             <div class="box">
                 <img id="main-img" src="{% static 'image/black-watch.jpg' %}" alt="">
             </div>
@@ -22,8 +22,29 @@
                 </div>
             </div>
         </div>
-        <div class="col-xlg-6 col-lg-6 col-md-6 col-sm-12 col-12">
-            
+        <div class="right-section px-5 col-xlg-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <h2 class="product-name">Apple Watch</h2>
+            <div class="star d-flex mb-5">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+            <p class="product-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque vitae eum sed, neque ut odit quidem doloribus tenetur, harum cum nesciunt, facilis molestiae libero aliquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, totam?
+            </p>
+            <span class="product-price mt-4">&#8377; 42000</span>
+            <span class="original-price">	&#8377; 53999</span><br>
+            <select class="mt-4 size" name="size" id="size">
+                <option value="small">Small</option>
+                <option value="large">Large</option>
+                <option value="medium">medium</option>
+            </select>
+            <div class="mt-4 d-flex">
+                <input class="count" placeholder="1" type="number"><br>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
         </div>
     </div>
 </div>

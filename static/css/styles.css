@@ -378,7 +378,11 @@ body{
 
 /* single page css starts  */
 .single-page{
-    padding-top: 180px;
+    padding-top: 130px;
+}
+.single-page .right-section,
+.single-page .left-section{
+    padding-top: 50px;
 }
 .single-page .box{
     width: 100%;
@@ -406,4 +410,62 @@ body{
 .single-page .small-box img.active{
     border: 3px solid coral;
 }
+
+
+
+
+
+.single-page .product-name{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Caveat', cursive;
+}
+.single-page .star i{
+    color: goldenrod;
+    margin-right: 4px;
+}
+.single-page .product-description{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 18px;
+    text-align: justify;
+}
+.single-page .add-to-cart-btn{
+    background: coral;
+    color: white;
+    transition: 0.5s;
+    padding: 8px 18px;
+    font-weight: bold;
+    font-family: 'Caveat', cursive;
+    border: 1px solid coral;
+    border-radius: 25px;
+}
+.single-page .product-price{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+}
+.single-page .original-price{
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'Caveat', cursive;
+    text-decoration: line-through;
+}
+.single-page .count{
+    height: 42px;
+    padding-left: 15px;
+    font-weight: bold;
+    margin-right: 15px;
+    width: 80px;
+    border-radius: 8px;
+}
+.single-page .size{
+    width: 180px;
+    height: 45px;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+}
+
 /* single page css ends  */
