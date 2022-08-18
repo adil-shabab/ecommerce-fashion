@@ -437,7 +437,7 @@ body{
     padding: 8px 18px;
     font-weight: bold;
     font-family: 'Caveat', cursive;
-    border: 1px solid coral;
+    border: 1px solid rgb(255, 127, 80);
     border-radius: 25px;
 }
 .single-page .product-price{
@@ -469,3 +469,75 @@ body{
 }
 
 /* single page css ends  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* featured css start  */
+.featured{
+    margin-bottom: 50px;
+}
+.featured .product{
+    border-radius: 15px;
+    padding-bottom: 30px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 0px 1px 2px rgba(255, 127, 80, 0.5);
+}
+.featured .img-container{
+    width: 100%;
+    height: 170px;
+}
+.featured .img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.featured .product-name{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Caveat', cursive;
+    margin-top: 20px;
+}
+.featured .star{
+    margin-top: 10px;
+}
+.featured .star i{
+    color: goldenrod;
+    margin-right: 2px;
+}
+.featured .product button{
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    background: coral;
+    color: white;
+    transition: 0.5s;
+    padding: 4px 8px;
+    margin-top: 15px;
+    font-weight: bold;
+    border: 1px solid coral;
+    font-family: 'Caveat', cursive;
+    border: 1px solid rgb(255, 127, 80);
+    border-radius: 25px;
+}
+.featured .product button:hover{
+    background: white;
+    color: coral;
+}
+.featured .product .product-price{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* featured css end  */
