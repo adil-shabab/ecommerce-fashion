@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+<div class="container single-page">
+    <div class="row">
+        <div class="col-xlg-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="box">
+                <img id="main-img" src="{% static 'image/black-watch.jpg' %}" alt="">
+            </div>
+            <div class="mt-3 row small-box">
+                <div class="col-3">
+                    <img class="small-image active" src="{% static 'image/black-watch.jpg' %}" alt="">
+                </div>
+                <div class="col-3">
+                    <img class="small-image" src="{% static 'image/white-watch.jpg' %}" alt="">
+                </div>
+                <div class="col-3">
+                    <img class="small-image" src="{% static 'image/green-watch.jpg' %}" alt="">
+                </div>
+                <div class="col-3">
+                    <img class="small-image" src="{% static 'image/blue-watch.jpg' %}" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-xlg-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            
+        </div>
+    </div>
+</div>
+{% endblock content %}
