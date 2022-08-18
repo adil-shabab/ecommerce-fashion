@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+
+  <div class="container footer">
+    <hr class="footer-hr">
+    <div class="row">
+        <div class="logo col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12">
+            <img src="https://raw.githubusercontent.com/adil-shabab/ecommerce-cara/master/img/logo.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur eveniet? Vitae dolore minima et eos obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ducimus!</p>
+        </div>
+        <div class="guide col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12">
+            <h4 class="head">Guide Links</h4>
+            <a href=""><i class="fa-solid fa-right-long mr-3"></i>Home</a><br>
+            <a href=""><i class="fa-solid fa-right-long mr-3"></i>Shop</a><br>
+            <a href=""><i class="fa-solid fa-right-long mr-3"></i>About</a><br>
+            <a href=""><i class="fa-solid fa-right-long mr-3"></i>Blog</a><br>
+            <a href=""><i class="fa-solid fa-right-long mr-3"></i>Contack</a><br>
+        </div>
+        <div class="contact col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12">
+            <h4 class="head">Contact Us</h4>
+            <p><i class="mr-3 fa-solid fa-location-dot"></i>Ramanattukara, Kakkanchery, Calicut Dt. 673634</p>
+            <p><i class="mr-3 fa-solid fa-phone"></i>7510393197</p>
+            <p><i class="mr-3 fa-solid fa-envelope"></i>adilshabab2004@gmail.com</p>
+        </div>
+        <div class="join col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12">
+            <h4 class="head">Join US</h4>
+            <div class="d-flex">
+                <input type="text">
+                <button><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+            <div class="row mt-4">
+                <div class="w-100 col-6">
+                    <img class="shadow" src="{% static 'image/dress.jpg' %}" alt="">
+                </div>
+                <div class="w-100 col-6">
+                    <img class="shadow" src="{% static 'image/stationary.jpg' %}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="footer-hr-2">
+</div>
+<p class="mb-2 copy text-center">&#169; buyend.in | All rights reserved</p>
+{% endblock content %}

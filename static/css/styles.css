@@ -1,5 +1,5 @@
 /* global css  */
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oleo+Script+Swash+Caps&family=Roboto+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oleo+Script+Swash+Caps&family=Poppins&family=Roboto+Slab:wght@100&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -539,5 +539,88 @@ body{
     font-weight: bold;
     font-size: 17px;
 }
-
 /* featured css end  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer css start  */
+.footer{
+    margin-top: 160px;
+}
+.footer .logo img{
+    margin-bottom: 30px;
+}
+.footer .logo p{
+    text-align: justify;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+.footer .guide{
+    padding-left: 50px;
+}
+.footer .guide a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer .head{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.footer .contact p{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+.footer i{
+    color: coral;
+}
+.footer .join input{
+    width: 80%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 35px;
+}
+.footer .join button{
+    padding: 5px 10px;
+    cursor: pointer;
+    height: 35px;
+    background: coral;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+}
+.footer .join button i{
+    color: white;
+}
+.footer img{
+    width: 100%;
+    border-radius: 10px;
+}
+.footer .footer-hr{
+    width: 100%;
+    margin-bottom: 65px;
+    background: coral;
+    height: 2px;
+}
+.footer .footer-hr-2{
+    width: 100%;
+    background: coral;
+    height: 1px;
+}
+.copy{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+/* footer css end  */
