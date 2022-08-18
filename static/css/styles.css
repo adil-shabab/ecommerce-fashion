@@ -55,15 +55,7 @@ body{
     font-family: 'Finlandica', sans-serif;
     font-family: 'Oleo Script Swash Caps', cursive;
   }
-/* hr{
-    width: 50%;
-    margin: auto;
-    height: 5px;
-    box-shadow: 0px 3px 4px rgb(255, 127, 80);
-    border: none;
-    background: none;
-    margin-bottom: 25px;
-} */
+
 
 
 
@@ -319,3 +311,57 @@ body{
 }
 
 /* about section end ************************************************ */
+
+
+
+
+
+
+
+
+
+/* why us section css start  */
+.why-us{
+    margin-bottom: 80px;
+}
+.why-us .color {
+    display: flex;
+    background: #e0d7e9;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    min-height: 250px;
+    padding: 15px;
+    margin-top: 15px;
+}
+.why-us .color-2 {
+    background: #e9f3cb;
+}
+.why-us .color-3 {
+    background: #fbd0e2;
+}
+.why-us .color-4 {
+    background: #e0d7e9;
+}
+.why-us .color i {
+    font-size: 2.5rem;
+    padding: 20px;
+    border-radius: 50%;
+    background: white;
+    color: #00aaae;
+    margin-bottom: 20px;
+}
+.why-us .color h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.why-us .color p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+/* why us section css end  */
