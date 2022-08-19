@@ -736,7 +736,50 @@ body{
 
 /* main shop css start  */
 .main-shop{
-    padding-top: 180px;
+    padding-top: 10px;
     width: 100%;
 }
 /* main shop css end  */
+
+
+
+
+
+
+/* about section css start  */
+.about-us{
+    padding-top: 140px;
+}
+.about-us .left-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-us .right-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-us .right-section p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Caveat', cursive;
+}
+.about-us .right-section button{
+    color: white;
+    font-family: 'Caveat',cursive;
+    border-radius: 8px;
+    width: 40%;
+    background: coral;
+    margin-top: 25px;
+    border: 1px solid coral;
+    padding: 5px;
+    font-weight:  bold;
+    transition: 0.5s;
+}
+.about-us .right-section button:hover{
+    color: coral;
+    background: white;
+}
+/* about section css end  */

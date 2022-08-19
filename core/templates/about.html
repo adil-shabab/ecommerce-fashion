@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+<div class="about-us container">
+    <div class="row mb-5 pb-5">
+        <div class="col-xlg-6 col-lg-6 col-md-12 col-12 left-section">
+            <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_ljotbiif.json"  background="transparent"  speed="1"  style="width: 90%; height: 90%;"  loop autoplay></lottie-player>
+        </div>
+        <div class="col-xlg-6 col-lg-6 col-md-12 col-12 right-section">
+            <h1 class="heading text-center">About Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolorum ipsa culpa architecto fugit ad libero aspernatur velit explicabo provident, cupiditate quaerat perspiciatis commodi dolore dolorem similique. Rerum, quas. Cupiditate sint repellendus ipsum velit dolorum blanditiis dolores minima repudiandae nostrum?</p>
+            <lottie-player data-aos="fade-right" class="lottie" src="https://assets5.lottiefiles.com/packages/lf20_bS9j3g.json" background="transparent" speed="1" style="width: 75px; height: 75px" loop autoplay ></lottie-player>
+            <button>Check Shop</button>
+        </div>
+    </div>
+    {% include "why.html" %}
+</div>
+{% endblock content %}
