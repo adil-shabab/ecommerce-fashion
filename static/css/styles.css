@@ -384,14 +384,17 @@ body{
 .single-page .left-section{
     padding-top: 50px;
 }
-.single-page .box{
+.single-page .box-2{
     width: 100%;
     border-radius: 18px;
     overflow: hidden;
     height: 55vh;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
 }
-.single-page .box img{
+.single-page .heading{
+    margin-top: 130px;
+}
+.single-page .box-2 img{
     width: 100%;
     height: 100%;
 }
@@ -486,37 +489,44 @@ body{
 .featured{
     margin-bottom: 50px;
 }
-.featured .product{
+.featured .product,
+.single-page .product{
     border-radius: 15px;
     padding-bottom: 30px;
     padding: 15px;
     cursor: pointer;
     position: relative;
-    box-shadow: 0px 1px 2px rgba(255, 127, 80, 0.5);
+    box-shadow: 0px 2px 4px rgba(255, 127, 80, 0.5);
 }
-.featured .img-container{
+.featured .img-container,
+.single-page .img-container{
     width: 100%;
     height: 170px;
 }
-.featured .img-container img{
+.featured .img-container img,
+.single-page .img-container img{
     width: 100%;
     height: 100%;
     border-radius: 15px;
 }
-.featured .product-name{
+.featured .product-name,
+.single-page .product-name{
     font-size: 25px;
     font-weight: bold;
     font-family: 'Caveat', cursive;
     margin-top: 20px;
 }
-.featured .star{
+.featured .star,
+.single-page .product .star{
     margin-top: 10px;
 }
-.featured .star i{
+.featured .star i,
+.featured .product .star i{
     color: goldenrod;
     margin-right: 2px;
 }
-.featured .product button{
+.featured .product button,
+.single-page .product button{
     position: absolute;
     bottom: 10px;
     right: 15px;
@@ -535,7 +545,12 @@ body{
     background: white;
     color: coral;
 }
-.featured .product .product-price{
+.single-page .product button:hover{
+    background: white;
+    color: coral;
+}
+.featured .product .product-price,
+.single-page .product .product-price{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 17px;
@@ -638,3 +653,45 @@ body{
     transform: rotate(-360deg);
 }
 /* footer css end  */
+
+
+
+
+
+
+
+
+
+/* shop css start  */
+.shop{
+    padding-top: 220px;
+}
+.shop .first-row{
+    width: 100%;
+    height: 100vh;
+}
+.shop .right-section p{
+    font-family: 'Caveat', cursive;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.shop .left-section .lottie{
+    border-radius: 15px;
+    margin: auto;
+}
+.shop .right-section button{
+    color: white;
+    font-family: 'Caveat',cursive;
+    border-radius: 8px;
+    width: 40%;
+    background: coral;
+    border: 1px solid coral;
+    padding: 5px;
+    font-weight:  bold;
+    transition: 0.5s;
+}
+.shop .right-section button:hover{
+    color: coral;
+    background: white;
+}
+/* shop css end  */
