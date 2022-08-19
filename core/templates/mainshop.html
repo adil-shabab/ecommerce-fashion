@@ -1,0 +1,299 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+<div class="main-shop container">
+    <h1 class="heading text-center">Choose Your Category</h1>
+    <div class="mb-5 row filter-1">
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/food.jpg' %}" alt="">
+                <p class="para">Food</p>
+            </div>
+        </div>
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/gadgets.jpg' %}" alt="">
+                <p class="para">Electronics</p>
+            </div>
+        </div>
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/phone.jpg' %}" alt="">
+                <p class="para">Phone</p>
+            </div>
+        </div>
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/stationary.jpg' %}" alt="">
+                <p class="para">Stationary</p>
+            </div>
+        </div>
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/shoe.jpg' %}" alt="">
+                <p class="para">Shoe</p>
+            </div>
+        </div>
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/dress.jpg' %}" alt="">
+                <p class="para">Dress</p>
+            </div>
+        </div>
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/home tools.jpg' %}" alt="">
+                <p class="para">Home Appliences</p>
+            </div>
+        </div>
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/watch.jpg' %}" alt="">
+                <p class="para">Watch</p>
+            </div>
+        </div>
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/laptop.jpg' %}" alt="">
+                <p class="para">Laptop</p>
+            </div>
+        </div>
+        <div class="box mt-3 col-xlg-4 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div>
+                <img src="{% static 'image/perfume 5.jpg' %}" alt="">
+                <p class="para">Perfumes</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <h2 class="heading text-center mt-5">Latest Products</h2>
+    <div class="row">
+        <div class="mt-3 col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12 box p-0 pr-3">
+            <div class="product">
+                <div class="img-container">
+                    <img src="{% static 'image/black-earpod.jpg' %}" alt="">
+                </div>
+                <h3 class="product-name">Airpod</h3>
+                <div class="star d-flex mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <span class="product-price">&#8377; 2499</span>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+
+
+
+        <div class="mt-3 col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12 box p-0 pr-3">
+            <div class="product">
+                <div class="img-container">
+                    <img src="{% static 'image/green-shoe.jpg' %}" alt="">
+                </div>
+                <h3 class="product-name">Running Shoe</h3>
+                <div class="star d-flex mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <span class="product-price">&#8377; 899</span>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="mt-3 col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12 box p-0 pr-3">
+            <div class="product">
+                <div class="img-container">
+                    <img src="{% static 'image/iphone.jpg' %}" alt="">
+                </div>
+                <h3 class="product-name">Iphone 13 Pro</h3>
+                <div class="star d-flex mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <span class="product-price">&#8377; 8599</span>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="mt-3 col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12 box p-0 pr-3">
+            <div class="product">
+                <div class="img-container">
+                    <img src="{% static 'image/noodles.jpg' %}" alt="">
+                </div>
+                <h3 class="product-name">Chicken Noodles</h3>
+                <div class="star d-flex mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <span class="product-price">&#8377; 199</span>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="mt-3 col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12 box p-0 pr-3">
+            <div class="product">
+                <div class="img-container">
+                    <img src="{% static 'image/headset.jpg' %}" alt="">
+                </div>
+                <h3 class="product-name">Headset</h3>
+                <div class="star d-flex mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <span class="product-price">&#8377; 1999</span>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="mt-3 col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12 box p-0 pr-3">
+            <div class="product">
+                <div class="img-container">
+                    <img src="{% static 'image/necklace.jpg' %}" alt="">
+                </div>
+                <h3 class="product-name">Necklace</h3>
+                <div class="star d-flex mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <span class="product-price">&#8377; 24999</span>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="mt-3 col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12 box p-0 pr-3">
+            <div class="product">
+                <div class="img-container">
+                    <img src="{% static 'image/laptop 1.jpg' %}" alt="">
+                </div>
+                <h3 class="product-name">Laptop</h3>
+                <div class="star d-flex mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <span class="product-price">&#8377; 64999</span>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="mt-3 col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12 box p-0 pr-3">
+            <div class="product">
+                <div class="img-container">
+                    <img src="{% static 'image/football.jpg' %}" alt="">
+                </div>
+                <h3 class="product-name">Football</h3>
+                <div class="star d-flex mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <span class="product-price">&#8377; 699</span>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="mt-3 col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12 box p-0 pr-3">
+            <div class="product">
+                <div class="img-container">
+                    <img src="{% static 'image/mouse.jpg' %}" alt="">
+                </div>
+                <h3 class="product-name">Wireless mouse</h3>
+                <div class="star d-flex mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <span class="product-price">&#8377; 1299</span>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="mt-3 col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12 box p-0 pr-3">
+            <div class="product">
+                <div class="img-container">
+                    <img src="{% static 'image/note book.jpg' %}" alt="">
+                </div>
+                <h3 class="product-name">Note Book</h3>
+                <div class="star d-flex mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <span class="product-price">&#8377; 99</span>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="mt-3 col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12 box p-0 pr-3">
+            <div class="product">
+                <div class="img-container">
+                    <img src="{% static 'image/bottle.jpg' %}" alt="">
+                </div>
+                <h3 class="product-name">Water Bottle</h3>
+                <div class="star d-flex mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <span class="product-price">&#8377; 199</span>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="mt-3 col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12 box p-0 pr-3">
+            <div class="product">
+                <div class="img-container">
+                    <img src="{% static 'image/school bag.jpg' %}" alt="">
+                </div>
+                <h3 class="product-name">School Bag</h3>
+                <div class="star d-flex mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <span class="product-price">&#8377; 799</span>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="mt-3 col-xlg-3 col-lg-3 col-md-6 col-sm-12 col-12 box p-0 pr-3">
+            <div class="product">
+                <div class="img-container">
+                    <img src="{% static 'image/perfume 1.jpg' %}" alt="">
+                </div>
+                <h3 class="product-name">Perfume</h3>
+                <div class="star d-flex mb-3">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <span class="product-price">&#8377; 1199</span>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

@@ -241,21 +241,26 @@ body{
     margin-bottom: 20px;
     color: coral;
 }
+.main-shop .filter-1 img,
 .filter img{
     width: 100%;
     cursor: pointer;
     height: 100%;
     transition: 0.6s;
 }
+.main-shop .filter-1 img:hover{
+    transform: scale(1.2) rotate(-5deg);
+}
 .filter img:hover{
     transform: scale(1.2) rotate(-5deg);
 }
-
+.main-shop .filter-1 .box,
 .filter .box{
     margin: 0;
     padding: 0;
     padding: 10px;
 }
+.main-shop .filter-1 .box div,
 .filter .box div{
     width: 100%;
     height: 100%;
@@ -489,6 +494,7 @@ body{
 .featured{
     margin-bottom: 50px;
 }
+.main-shop .product,
 .shop .product,
 .featured .product,
 .single-page .product{
@@ -499,12 +505,14 @@ body{
     position: relative;
     box-shadow: 0px 2px 4px rgba(255, 127, 80, 0.5);
 }
+.main-shop .product .img-container,
 .shop .product .img-container,
 .featured .img-container,
 .single-page .img-container{
     width: 100%;
     height: 170px;
 }
+.main-shop .product .img-container img,
 .shop .product .img-container img,
 .featured .img-container img,
 .single-page .img-container img{
@@ -512,6 +520,7 @@ body{
     height: 100%;
     border-radius: 15px;
 }
+.main-shop .product .product-name,
 .shop .product .product-name,
 .featured .product-name,
 .single-page .product-name{
@@ -520,17 +529,20 @@ body{
     font-family: 'Caveat', cursive;
     margin-top: 20px;
 }
+.main-shop .product .star,
 .shop .product .star,
 .featured .star,
 .single-page .product .star{
     margin-top: 10px;
 }
+.main-shop .product .star i,
 .shop .product .star i,
 .featured .star i,
 .featured .product .star i{
     color: goldenrod;
     margin-right: 2px;
 }
+.main-shop .product button,
 .shop .product button,
 .featured .product button,
 .single-page .product button{
@@ -548,6 +560,10 @@ body{
     border: 1px solid rgb(255, 127, 80);
     border-radius: 25px;
 }
+.main-shop .product button:hover{
+    background: white;
+    color: coral;
+}
 .shop .product button:hover{
     background: white;
     color: coral;
@@ -560,6 +576,7 @@ body{
     background: white;
     color: coral;
 }
+.main-shop .product .product-price,
 .shop .product .product-price,
 .featured .product .product-price,
 .single-page .product .product-price{
@@ -710,3 +727,16 @@ body{
     background: white;
 }
 /* shop css end  */
+
+
+
+
+
+
+
+/* main shop css start  */
+.main-shop{
+    padding-top: 180px;
+    width: 100%;
+}
+/* main shop css end  */
