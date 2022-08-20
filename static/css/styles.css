@@ -701,6 +701,7 @@ body{
 }
 .shop .second-row{
     margin-top: 100px;
+    margin-bottom: 120px;
 }
 .shop .right-section p{
     font-family: 'Caveat', cursive;
@@ -782,4 +783,20 @@ body{
     color: coral;
     background: white;
 }
+.about-us .mission-vision{
+    border-bottom: 1px solid coral;
+}
+.about-us .mission-vision h3{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-align: center;
+}
+.about-us .mission-vision p{
+    font-size: 19px;
+    font-family: 'Caveat', cursive;
+    text-align: justify;
+    margin-top: 20px;
+}
+
 /* about section css end  */
