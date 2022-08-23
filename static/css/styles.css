@@ -91,13 +91,13 @@ body{
     list-style: none;
     font-size: 20px;
 }
-.navbar ul li .cart{
+.navbar .cart{
     position: relative;
 }
 .navbar ul li a:hover{
     color: coral;
 }
-.navbar ul li .circle{
+.navbar .circle{
     position: absolute;
     background: red;
     color: white;
@@ -106,6 +106,50 @@ body{
     border-radius: 50%;
     right: 0px;
     top: -3px;
+}
+.menu-icon,
+.close-icon {
+    cursor: pointer;
+    color: white;
+    width: 25px !important;
+    height: 25px !important;
+    margin-left: 20px;
+    display: none;
+}
+.navbar ul.active {
+    position: absolute;
+    margin: 3vh auto 0;
+    align-items: center;
+    right: 10px;
+    z-index: 11;
+    width: 100%;
+    top: 80px;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+    transform: translateY(0);
+    background-color: white;
+    padding: 10px;
+}
+.navbar ul.active li {
+    margin-bottom: 10px;
+}
+.navbar ul.active li a.active {
+    border-bottom: 1px solid #00aaae;
+}
+
+@media screen and (max-width: 992px) {
+    .menu-icon {
+        display: block;
+        /* width: 25px !important; */
+    }
+    .navbar ul {
+        display: none;
+    }
+    .navbar{
+        padding: 20px 50px;
+    }
 }
 /* navbar section end  ------------------------------------- */
 
@@ -800,3 +844,35 @@ body{
 }
 
 /* about section css end  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* loader section css start  */
+.loader_bg{
+    position: fixed;
+    z-index: 999999;
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .loader{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: calc(50vh - 75px);
+    left: calc(50vw - 75px);
+    right: calc(50vw - 75px);
+  }
+/* loader section css end    */

@@ -1,3 +1,25 @@
+menubar = document.querySelector('.menu-icon')
+closebar = document.querySelector('.close-icon')
+ul = document.querySelector('.nav-ul')
+menubar.addEventListener('click', function(){
+  // alert('hai')
+  menubar.style.display = "none"
+  closebar.style.display = "block"
+  ul.classList.add('active')
+  
+  console.log('hello')
+})
+closebar.addEventListener('click', function(){
+  // alert('hai')
+  closebar.style.display = "none"
+  menubar.style.display = "block"
+  console.log('hello')
+  ul.classList.remove('active')
+  
+})
+
+
+
 // home swiper 
 var swiper = new Swiper(".mySwiper", {
     effect: "flip",
